@@ -71,7 +71,7 @@ default-members = [
 pathfinder_geometry = { path = "geometry" }
 pathfinder_simd = { path = "simd" }
 
-[patch."https://github.com/servo/pathfinder"]
+[patch."https://github.com/kicsyromy/pathfinder"]
 pathfinder_content = { path = "content" }
 pathfinder_color = { path = "color" }
 pathfinder_geometry = { path = "geometry" }

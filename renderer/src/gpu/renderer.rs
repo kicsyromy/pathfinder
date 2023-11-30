@@ -408,10 +408,10 @@ impl<D> Renderer<D> where D: Device {
         }
         self.current_cpu_build_time = None;
 
-        self.update_debug_ui();
-        if self.core.options.show_debug_ui {
-            self.draw_debug_ui();
-        }
+        // self.update_debug_ui();
+        // if self.core.options.show_debug_ui {
+        //     self.draw_debug_ui();
+        // }
 
         self.core.allocator.purge_if_needed();
 
